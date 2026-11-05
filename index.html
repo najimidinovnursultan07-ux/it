@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TRAVEL KG — дүйнөнүн эң кооз жерлерине саякаттаңыз.">
+  <title>TRAVEL KG — Саякатыңызды баштаңыз</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html"><span class="logo-mark">✦</span> TRAVEL<span>KG</span></a>
+    <button class="menu-toggle" aria-label="Меню" id="menuToggle">☰</button>
+    <nav class="nav" id="mainNav"><a class="active" href="index.html">Башкы бет</a><a href="tours.html">Турлар</a><a href="#destinations">Багыттар</a><a href="#about">Биз жөнүндө</a><a href="#contacts">Байланыш</a></nav>
+    <div class="nav-actions"><a class="login-link" href="login.html">Кирүү</a><a class="btn btn-small" href="tours.html">Тур тандоо <span>↗</span></a></div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-bg"></div><div class="container hero-content">
+    <div class="eyebrow"><span class="pulse"></span> СИЗДИН КИЙИНКИ САЯКАТЫҢЫЗ УШУЛ ЖЕРДЕН БАШТАЛАТ</div>
+    <h1>Дүйнөнү <em>ачыңыз.</em><br>Эстен кеткис көз ирмемдерди жаратыңыз.</h1>
+    <p class="hero-text">Кыялдагы эс алууңузду биз менен пландаңыз. Эң мыкты багыттар, ыңгайлуу сунуштар жана ишенимдүү колдоо.</p>
+    <div class="hero-buttons"><a class="btn" href="tours.html">Турларды көрүү <span>↗</span></a><a class="play-link" href="#about"><span class="play">▶</span> Биз жөнүндө</a></div>
+    <div class="hero-note"><div class="avatar-stack"><i>✦</i><i>✈</i><i>♥</i></div><div><strong>2 500+</strong><small>бактылуу саякатчы</small></div><div class="hero-rating">★★★★★ <small>4.9 / 5</small></div></div>
+  </div>
+  <div class="hero-side-label">TRAVEL MORE · WORRY LESS</div>
+</section>
+
+<section class="search-section container">
+  <form class="search-panel" id="heroSearch">
+    <label><span>⌖</span><small>КАЙДА БАРГЫҢЫЗ КЕЛЕТ?</small><select id="searchCountry"><option value="">Бардык багыттар</option><option>Түркия</option><option>Египет</option><option>БАЭ</option><option>Таиланд</option><option>Мальдив</option><option>Вьетнам</option></select></label>
+    <label><span>▦</span><small>КАЧАН?</small><input id="searchDate" type="date"></label>
+    <label><span>♙</span><small>САЯКАТЧЫЛАР</small><select id="searchPeople"><option>2 адам</option><option>1 адам</option><option>3 адам</option><option>4 адам</option><option>5+ адам</option></select></label>
+    <button class="btn search-btn" type="submit">Издөө <span>⌕</span></button>
+  </form>
+</section>
+
+<section class="section container" id="destinations">
+  <div class="section-head"><div><div class="eyebrow dark">СИЗДИ КҮТКӨН БАГЫТТАР</div><h2>Кайда саякаттайбыз?</h2><p>Өзүңүзгө жаккан жерди тандап, жаңы таасирлерге жол ачыңыз.</p></div><a class="text-link" href="tours.html">Бардык багыттар <span>↗</span></a></div>
+  <div class="destination-grid">
+    <a class="destination-card dest-turkey" href="tours.html?country=Түркия"><div><span>01 / BEACH & CULTURE</span><h3>Түркия</h3><p>Күн, деңиз жана тарых</p></div><b>↗</b></a>
+    <a class="destination-card dest-egypt" href="tours.html?country=Египет"><div><span>02 / SUN & SEA</span><h3>Египет</h3><p>Кызыл деңиздин керемети</p></div><b>↗</b></a>
+    <a class="destination-card dest-dubai" href="tours.html?country=БАЭ"><div><span>03 / CITY ESCAPE</span><h3>Дубай</h3><p>Келечек менен таанышыңыз</p></div><b>↗</b></a>
+    <a class="destination-card dest-thai" href="tours.html?country=Таиланд"><div><span>04 / TROPICAL</span><h3>Таиланд</h3><p>Тропикалык бейиш</p></div><b>↗</b></a>
+  </div>
+</section>
+
+<section class="section section-soft">
+ <div class="container"><div class="section-head"><div><div class="eyebrow dark">ЭҢ МЫКТЫ СУНУШТАР</div><h2>Популярдуу турлар</h2><p>Саякатчылар тандаган өзгөчө эс алуу сунуштары.</p></div><a class="text-link" href="tours.html">Бардык турлар ↗</a></div>
+  <div class="tour-grid" id="featuredTours"></div>
+ </div>
+</section>
+
+<section class="section container split-section" id="about">
+ <div class="about-image"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=85" alt="Тоолор жана көл"><div class="image-badge"><strong>7+</strong><span>жылдык тажрыйба</span></div></div>
+ <div class="about-copy"><div class="eyebrow dark">ЭМНЕ ҮЧҮН TRAVEL KG?</div><h2>Саякат — бул жөн гана жол эмес. Бул сезим.</h2><p>Биз сиздин убактыңызды баалайбыз. Ар бир саякатты кылдат пландап, эс алууңуз жагымдуу жана коопсуз болушуна жардам беребиз.</p>
+ <div class="benefit"><b>✦</b><div><strong>Жеке мамиле</strong><span>Сиздин каалооңузга ылайык сунуштар.</span></div></div>
+ <div class="benefit"><b>◈</b><div><strong>Тандалган мейманканалар</strong><span>Сапаты текшерилген эс алуу жайлары.</span></div></div>
+ <div class="benefit"><b>↗</b><div><strong>Саякат учурунда колдоо</strong><span>Суроолоруңузга ар дайым жардам беребиз.</span></div></div>
+ <a class="btn" href="#contacts">Биз менен байланышуу ↗</a></div>
+</section>
+
+<section class="stats-band"><div class="container stats"><div><strong>2.5K+</strong><span>Саякатчылар</span></div><div><strong>35+</strong><span>Багыттар</span></div><div><strong>120+</strong><span>Мейманканалар</span></div><div><strong>4.9/5</strong><span>Кардарлардын баасы</span></div></div></section>
+
+<section class="section container reviews"><div class="section-head"><div><div class="eyebrow dark">САЯКАТЧЫЛАРДЫН ПИКИРИ</div><h2>Алардын таасирлери</h2></div></div><div class="review-grid">
+ <article class="review-card"><div class="stars">★★★★★</div><p>«Баары мыкты уюштурулду. Мейманкана сонун, эс алуубуз абдан жагымдуу өттү!»</p><div class="review-person"><span>А</span><div><b>Айдана М.</b><small>Анталия, Түркия</small></div></div></article>
+ <article class="review-card"><div class="stars">★★★★★</div><p>«Тандоодон баштап кайтып келгенге чейин жардам беришти. Кийинки сапарды да ушул жерден алабыз.»</p><div class="review-person"><span>Б</span><div><b>Бекзат Т.</b><small>Шарм-эш-Шейх, Египет</small></div></div></article>
+ <article class="review-card"><div class="stars">★★★★★</div><p>«Ыңгайлуу баа, жакшы сервис жана эң сонун эс алуу. Чын жүрөктөн сунуштайм!»</p><div class="review-person"><span>Н</span><div><b>Нурзат К.</b><small>Дубай, БАЭ</small></div></div></article>
+ </div></section>
+
+<section class="cta-section container" id="contacts"><div><div class="eyebrow">КИЙИНКИ САЯКАТЫҢЫЗГА ДАЯРСЫЗБЫ?</div><h2>Кыялдагы эс алууңузду<br>бүгүн пландаңыз.</h2><p>Бизге жазыңыз — сизге ылайыктуу турду чогуу табабыз.</p></div><a class="btn btn-light" href="https://wa.me/996700000000" target="_blank" rel="noopener">WhatsApp аркылуу жазуу ↗</a></section>
+</main>
+<footer class="footer"><div class="container footer-top"><a class="logo logo-white" href="index.html"><span class="logo-mark">✦</span> TRAVEL<span>KG</span></a><p>Дүйнөнү жакындата турган саякаттар.</p><div class="footer-links"><a href="tours.html">Турлар</a><a href="#about">Биз жөнүндө</a><a href="#contacts">Байланыш</a><a href="admin.html">Админ</a></div></div><div class="container footer-bottom"><span>© 2026 TRAVEL KG. Бардык укуктар корголгон.</span><span>Сүйүү менен саякаттаңыз ✦</span></div></footer>
+<div class="toast" id="toast"></div>
+<script src="js/data.js"></script><script src="js/app.js"></script>
+</body></html>
